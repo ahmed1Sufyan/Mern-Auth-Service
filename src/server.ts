@@ -1,1 +1,5 @@
-console.log('hello world');
+function login(username : string){
+    return true;
+}
+
+login("Sufyan");
