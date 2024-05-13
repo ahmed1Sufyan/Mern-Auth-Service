@@ -4,12 +4,15 @@
   "description": "A user management service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.ts"
+    "dev": "node src/server.ts",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "author": "Sufyan Ahmed <csc21s135@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.11",
+    "prettier": "3.2.5",
     "typescript": "^5.4.5"
   }
 }

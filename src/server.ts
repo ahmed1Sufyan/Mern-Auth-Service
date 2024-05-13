@@ -1,5 +1,7 @@
-function login(username : string){
-    return true;
-}
+import { log } from "console";
 
-login("Sufyan");
+function login(username: string) {
+    return true
+}
+login("Sufyan"); console.log("h");
+
