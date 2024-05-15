@@ -1,7 +1,7 @@
-import { log } from "console";
-
-function login(username: string) {
-    return true
+function getHello(name: string) {
+    const obj = {
+        name: 'ahmed',
+    };
+    return name + obj.name;
 }
-login("Sufyan"); console.log("h");
-
+getHello('Sufyan');
