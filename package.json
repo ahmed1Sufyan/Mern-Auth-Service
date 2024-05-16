@@ -10,7 +10,7 @@
         "lint:fix": "eslint . --fix",
         "lint": "eslint .",
         "prepare": "husky",
-        "test": "jest --watch"
+        "test": "jest --watch --runInBand"
     },
     "author": "Sufyan Ahmed <csc21s135@gmail.com>",
     "license": "ISC",
