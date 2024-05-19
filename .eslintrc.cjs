@@ -1,5 +1,4 @@
-const { rules } = require('eslint-config-prettier');
-
+// import { rules } from 'eslint-config-prettier';c
 /* eslint-env node */
 module.exports = {
     extends: [
@@ -17,5 +16,7 @@ module.exports = {
     rules: {
         'no-console': 'error',
         'dot-notation': 'error',
+        '@typescript-eslint.io/rules/no-unsafe-call': 'off',
+        '@typescript-eslint.io/rules/no-unsafe-call': 'off',
     },
 };

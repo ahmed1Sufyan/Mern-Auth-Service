@@ -1,5 +1,8 @@
+// import request from '"supertest"';
 import request from 'supertest';
 import app from '../../src/app';
+import { describe, expect, test } from '@jest/globals';
+// import test, { describe } from "node:test";
 
 describe('POST /auth/register', () => {
     describe('Given all fields', () => {
